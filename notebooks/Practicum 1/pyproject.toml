@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "practicum 1"
+version = "0.1.0"
+description = ""
+authors = ["Kondrahin Anton <a.kondrakhin@yadro.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.2.0"
+pandas = "^2.2.0"
+torchvision = "^0.17.0"
+notebook = "^7.1.0"
+matplotlib = "^3.8.3"
+accelerate = "^0.27.2"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
